@@ -1,10 +1,11 @@
 # LDPSH
 This is the matlab implementation of LDPSH method proposed in our paper "A General Framework for Linear Distance Preserving Hashing". The descriptions of files in this directory are listed below:
 
-- `demo.m`: gives an example to show how to run our LDPSH method
+- `demo.m`: gives an example to show how to run our LDPSH method.
+- `/ITQ`: the referred unsupervised hashing method ITQ, you can replace it with other hashing methods.
 - `/TSH` contains the main implementation of the proposed approach `LDPSH`.
 - `/NN`: contains the implementation of network architectures.
-- `/utils`: contains the implementations for basic manipulations
+- `/utils`: contains the implementations for basic manipulations.
 
 Data Preparation
 ---------------
@@ -32,3 +33,7 @@ publisher={IEEE}
   year={2016},
   organization={ACM}
 }
+
+Contact
+---------------
+Please feel free to leave suggestions or comments to Wang Min (wm123@mail.ustc.edu.cn).
